@@ -4,7 +4,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Gobbler1 from "../assets/gobbler1.jpg";
 import { Link } from "react-router-dom";
 
 function ArtGobblerPage(props) {
@@ -20,7 +19,7 @@ function ArtGobblerPage(props) {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia component="img" height="350" image={Gobbler1} />
+      <CardMedia component="img" height="350" image={props.image} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {props.title}
