@@ -1,11 +1,12 @@
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-
+import Container from "@mui/material/Container";
+import MarketplaceGrid from "./marketplaceGrid";
 function home() {
   return (
     <div>
-      <h1>This is the home page</h1>
       <Link to="test">Click to view our test page</Link>
+      <MarketplaceGrid></MarketplaceGrid>
     </div>
   );
 }
