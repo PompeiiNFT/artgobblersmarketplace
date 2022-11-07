@@ -1,0 +1,8 @@
+Connect Wallet Component flow
+
+- Page loads and large div populates asking the user to connect their Wallet
+- User connects their wallet using rainbowkit
+    - Log their account (eth address)
+    - Initialize state variable to true if account exists
+        - Render their pages
+
